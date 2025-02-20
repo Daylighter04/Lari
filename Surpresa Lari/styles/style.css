@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    background-color: #ffccdd;
+}
+
+.container, .buque {
+    max-width: 600px;
+    margin: auto;
+    background: #ffe6f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-cartinha { background-color: #ff6699; color: white; }
+.btn-link { background-color: #ff3385; color: white; }
+.btn-surpresa { background-color: #ff99cc; color: white; }
+.btn-buque { background-color: #ff66b2; color: rgb(255, 255, 255); }
+.btn-sim { background: #ff3366; color: white; }
+.btn-nao { background: #cc0052; color: white; }
+.btn-voltar {
+    background-color: #ff6699;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.flowers {
+    font-size: 50px;
+}
