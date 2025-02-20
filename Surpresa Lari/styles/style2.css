@@ -58,7 +58,7 @@ button {
 }
 
 .popup img {
-    width: 150px; /* Agora a imagem fica menor */
+    width: 150px;
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
@@ -85,7 +85,7 @@ button {
 .dot-container {
     position: absolute;
     pointer-events: none;
-    z-index: 999; /* Para os confetes ficarem visíveis acima dos elementos */
+    z-index: 999; 
 }
 
 .dot {
