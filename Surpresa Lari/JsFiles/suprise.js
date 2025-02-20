@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function mostrarSurpresa() {
     document.getElementById("popup").style.display = "flex";
-    startExplosion(); // Chama a função de explosão assim que o popup aparece
+    startExplosion(); 
 }
 
 function fecharPopup() {
@@ -115,8 +115,8 @@ function startExplosion() {
   }
 
   setTimeout(function() {
-    play(); // Agora chama a função play após a inicialização das explosões
-  }, 500); // Espera um pequeno intervalo para garantir que o pop-up esteja visível
+    play(); 
+  }, 500);
 }
 
 function play() {
